@@ -1,0 +1,5 @@
+<% if @lul.new_record? %>
+  alert("Upload fail: <%= j @lul.errors.full_messages.join(', ') %>");
+<% else %>
+  $("#lulz").prepend("<%= j render @lul %>");
+<% end %>
