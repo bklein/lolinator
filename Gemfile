@@ -41,4 +41,7 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'rmagick'
 gem 'carrierwave'
+gem 'fog'
 gem 'haml'
+
+gem 'puma' # keep your Pumas fresh
